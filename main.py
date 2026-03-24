@@ -1,4 +1,5 @@
 def main():
+    my_tasks = []
     while True:
         print("\n--- TO-DO LIST MENU ---")
         print("1. Add Task")
@@ -7,9 +8,14 @@ def main():
 
         choice = input("Enter your choice: ")
 
-        if choice == "3":
+        if choice == "1":
+            task = input("Enter your task: ")
+            my_tasks.append(task)
+            print("Task added successfully!")
+
+        elif choice == "3":
             print("Goodbye!")
-            break
+            break        
 
 
 if __name__ == "__main__":
