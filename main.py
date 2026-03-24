@@ -13,6 +13,14 @@ def main():
             my_tasks.append(task)
             print("Task added successfully!")
 
+        elif choice == "2":
+            if len(my_tasks) == 0:
+                print("No tasks available.")
+            else:
+                print("\nYour Tasks:")
+                for index, task in enumerate(my_tasks, start=1):
+                    print(index, "-", task)
+
         elif choice == "3":
             print("Goodbye!")
             break        
