@@ -56,7 +56,7 @@ Enter your task: Study Python
 Task added successfully!
 ```
 
-![Add Task](add_task.png)
+![Add Task](assets/add_task.png)
 
 ---
 
@@ -68,7 +68,7 @@ Your Tasks:
 2 - Buy Milk
 ```
 
-![View Tasks](view_tasks.png)
+![View Tasks](assets/view_tasks.png)
 
 ---
 
