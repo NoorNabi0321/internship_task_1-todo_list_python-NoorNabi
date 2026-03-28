@@ -17,16 +17,25 @@ def main():
 
         if choice == "1":
             task = input("Enter your task: ")
-            my_tasks.append(task)
-            print("Task added successfully!")
+
+            if task == "":
+                print("Task cannot be empty!")
+            else:
+                my_tasks.append(task)
+
+                # Save tasks
+                with open("tasks.json", "w") as file:
+                    json.dump(my_tasks, file)
+
+                print("Task added successfully!")
 
         elif choice == "2":
             if len(my_tasks) == 0:
                 print("No tasks available.")
             else:
                 print("\nYour Tasks:")
-                for index, task in enumerate(my_tasks, start=1):
-                    print(index, "-", task)
+                for i, task in enumerate(my_tasks, start=1):
+                    print(i, "-", task)
 
         elif choice == "3":
             print("Goodbye!")
