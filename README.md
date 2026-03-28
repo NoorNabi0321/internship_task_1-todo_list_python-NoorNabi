@@ -143,4 +143,4 @@ Ensures the program runs correctly.
 
 ## 👨‍💻 Author
 
-Your Name
+Noor Nabi Shaikh
