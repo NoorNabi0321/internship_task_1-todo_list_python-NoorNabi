@@ -1,5 +1,12 @@
+import json
+
 def main():
-    my_tasks = []
+    try:
+        with open("tasks.json", "r") as file:
+            my_tasks = json.load(file)
+    except:
+        my_tasks = []
+        
     while True:
         print("\n--- TO-DO LIST MENU ---")
         print("1. Add Task")
