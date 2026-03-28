@@ -45,7 +45,7 @@ python main.py
 3. Exit
 ```
 
-![Menu](assets/menu.png)
+![Menu](assets/menu.PNG)
 
 ---
 
@@ -56,7 +56,7 @@ Enter your task: Study Python
 Task added successfully!
 ```
 
-![Add Task](assets/add_task.png)
+![Add Task](assets/add_task.PNG)
 
 ---
 
@@ -68,7 +68,7 @@ Your Tasks:
 2 - Buy Milk
 ```
 
-![View Tasks](assets/view_tasks.png)
+![View Tasks](assets/view_tasks.PNG)
 
 ---
 
