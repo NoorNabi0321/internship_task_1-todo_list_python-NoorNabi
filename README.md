@@ -45,7 +45,7 @@ python main.py
 3. Exit
 ```
 
-![Menu](assets/menu.PNG)
+![Menu](assets/manu.PNG)
 
 ---
 
